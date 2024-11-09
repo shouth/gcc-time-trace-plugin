@@ -1,0 +1,10 @@
+BasedOnStyle: Webkit
+
+AccessModifierOffset: -2
+AlignAfterOpenBracket: DontAlign
+BreakBeforeBraces: Mozilla
+ConstructorInitializerIndentWidth: 2
+ContinuationIndentWidth: 2
+IndentWidth: 2
+PointerAlignment: Right
+SpaceAfterCStyleCast: true
