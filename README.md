@@ -98,7 +98,7 @@ This will generate a file named `a-example.trace.json`. You can upload this trac
 
 #### `-fplugin-arg-timetrace-verbose-decl=<verbosity>`
 
-`<verbosity>` can be 0, 1, or 2. Default value is 1. This option determines the level of detail for function names in the trace file. At level 0, only the name is included; at level 1, the scope name is added; at level 1, argument information is also added. Higher values provide more detail but also increase the size of the trace file.
+`<verbosity>` can be 0, 1, or 2. Default value is 1. This option determines the level of detail for function names in the trace file. At level 0, only the name is included; at level 1, the scope name is added; at level 2, argument information is also added. Higher values provide more detail but also increase the size of the trace file.
 
 Specifying an argument of 2 may, in very rare cases, cause a segmentation fault. The cause is unknown, and there is currently no estimate for a fix.
 
