@@ -190,7 +190,7 @@ static auto finish_callback(void *, void *) -> void
   };
 
   std::string filename;
-  filename += aux_base_name;
+  filename += dump_base_name;
   filename += ".trace.json";
   File guard { ::fopen(filename.c_str(), "wb") };
   TraceWriter writer { guard.file, epoch, decl_verbosity };
