@@ -90,7 +90,7 @@ After building this plugin by the standard method, you can run the following com
 g++ -fplugin=./build/timetrace.so example.cpp
 ```
 
-This will generate a file named `a-example.trace.json`. You can upload this trace file to [Perfetto UI](https://ui.perfetto.dev) to visualize it.
+This will generate a file named `a-example.cpp.trace.json`. You can upload this trace file to [Perfetto UI](https://ui.perfetto.dev) to visualize it.
 
 ![visualized GCC trace](visualized.png)
 
